@@ -23,6 +23,10 @@ Last updated on January 31st, 2025
 
 ![Plot: hallucination rates of various LLMs](./img/hallucination_rates_with_logo.png)
 
+- Suggestions to improve the table's usability:
+  - Extract company/types as needed + place on filtrable/sortable table on Notion.
+  - Add dynamic graphs.
+
 |Model|Hallucination Rate|Factual Consistency Rate|Answer Rate|Average Summary Length (Words)|
 |----|----:|----:|----:|----:|
 |OpenAI-o3-mini-high-reasoning|0.8 %|99.2 %|100.0 %|79.5|
