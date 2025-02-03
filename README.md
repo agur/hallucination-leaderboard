@@ -23,7 +23,7 @@ Last updated on January 31st, 2025
 
 ![Plot: hallucination rates of various LLMs](./img/hallucination_rates_with_logo.png)
 
-- Suggestions to improve the table's usability:
+### Suggestions to improve the table's usability:
   - Extract company/types as needed + place on filtrable/sortable table on Notion.
   - Add dynamic graphs.
 
