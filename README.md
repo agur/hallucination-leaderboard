@@ -1,5 +1,10 @@
 # Hallucination Leaderboard
 
+### Suggestions to improve the table and graph usability
+1. Filtrable/Sortable - Extract company/types, or possibly other meaningful metrics.  Can maintain on Notion.
+2. Dynamic graph adjusting to table.
+3. Apply to one source, embedd on others (Between the below one, [hallucination leaderboard](https://huggingface.co/spaces/vectara/leaderboard), are there others?)
+
 Public LLM leaderboard computed using Vectara's [Hughes Hallucination Evaluation Model](https://huggingface.co/vectara/hallucination_evaluation_model). This evaluates how often an LLM introduces hallucinations when summarizing a document. We plan to update this regularly as our model and the LLMs get updated over time.
 
 Also, feel free to check out our [hallucination leaderboard](https://huggingface.co/spaces/vectara/leaderboard) on Hugging Face. 
@@ -23,9 +28,6 @@ Last updated on January 31st, 2025
 
 ![Plot: hallucination rates of various LLMs](./img/hallucination_rates_with_logo.png)
 
-### Suggestions to improve the table's usability:
-  - Extract company/types as needed + place on filtrable/sortable table on Notion.
-  - Add dynamic graphs.
 
 |Model|Hallucination Rate|Factual Consistency Rate|Answer Rate|Average Summary Length (Words)|
 |----|----:|----:|----:|----:|
