@@ -33,7 +33,7 @@ df_sorted = df_sorted[df_sorted['hallucination_rate'] <= score_threshold]
 fig = plt.figure(figsize=(10, 6))
 ax = sns.barplot(x='hallucination_rate', y='LLM', data=df_sorted,
                  palette='Spectral_r', orient='h')
-fig.suptitle('Hallucination Rate for Top 25 LLMs', fontsize=15, y=1.03)
+fig.suptitle('Hallucination Rates for Top 25 LLMs', fontsize=15, y=1.03)
 
 # Remove axis labels
 ax.set_xlabel('')
@@ -47,7 +47,7 @@ ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 
 # Set x-axis limit
-ax.set_xlim(0, 5)
+ax.set_xlim(0, 3.5)
 
 # Add logo
 logo_path = 'vectara_logo.png'

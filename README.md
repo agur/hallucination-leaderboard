@@ -24,41 +24,59 @@ If you are interested in the previous leaderboard, which was based on HHEM-1.0, 
 </table>
 
 
-Last updated on January 31st, 2025
+Last updated on March 25th, 2025
 
 ![Plot: hallucination rates of various LLMs](./img/hallucination_rates_with_logo.png)
 
 
 |Model|Hallucination Rate|Factual Consistency Rate|Answer Rate|Average Summary Length (Words)|
 |----|----:|----:|----:|----:|
+|Google Gemini-2.0-Flash-001|0.7 %|99.3 %|100.0 %|65.2|
+|Google Gemini-2.0-Pro-Exp|0.8 %|99.2 %|99.7 %|61.5|
 |OpenAI-o3-mini-high-reasoning|0.8 %|99.2 %|100.0 %|79.5|
+|Google Gemini-2.5-Pro-Exp-0325|1.1 %|98.9 %|95.1 %|72.9|
+|Google Gemini-2.0-Flash-Lite-Preview|1.2 %|98.8 %|99.5 %|60.9|
+|OpenAI-GPT-4.5-Preview|1.2 %|98.8 %|100.0 %|77.0|
 |Zhipu AI GLM-4-9B-Chat|1.3 %|98.7 %|100.0 %|58.1|
 |Google Gemini-2.0-Flash-Exp|1.3 %|98.7 %|99.9 %|60.0|
 |OpenAI-o1-mini|1.4 %|98.6 %|100.0 %|78.3|
 |GPT-4o|1.5 %|98.5 %|100.0 %|77.8|
+|Amazon Nova-Micro-V1|1.6 %|98.4 %|100.0 %|90.0|
 |GPT-4o-mini|1.7 %|98.3 %|100.0 %|76.3|
 |GPT-4-Turbo|1.7 %|98.3 %|100.0 %|86.2|
 |Google Gemini-2.0-Flash-Thinking-Exp|1.8 %|98.2 %|99.3 %|73.2|
+|Amazon Nova-Lite-V1|1.8 %|98.2 %|99.9 %|80.7|
 |GPT-4|1.8 %|98.2 %|100.0 %|81.1|
+|Amazon Nova-Pro-V1|1.8 %|98.2 %|100.0 %|85.5|
 |GPT-3.5-Turbo|1.9 %|98.1 %|99.6 %|84.1|
+|XAI-2|1.9 %|98.1|100.0 %|86.5|
+|AI21 Jamba-1.6-Large|2.3 %|97.7 %|99.9 %|85.6 |
+|OpenAI O1-Pro|2.4 %|97.6 %|100.0 %|81.0|
 |OpenAI-o1|2.4 %|97.6 %|99.9 %|73.0|
 |DeepSeek-V2.5|2.4 %|97.6 %|100.0 %|83.2|
 |Microsoft Orca-2-13b|2.5 %|97.5 %|100.0 %|66.2|
 |Microsoft Phi-3.5-MoE-instruct|2.5 %|97.5 %|96.3 %|69.7|
 |Intel Neural-Chat-7B-v3-3|2.6 %|97.4 %|100.0 %|60.7|
+|Google Gemma-3-12B-Instruct|2.8 %|97.2 %|100.0 %|69.6|
 |Qwen2.5-7B-Instruct|2.8 %|97.2 %|100.0 %|71.0|
 |AI21 Jamba-1.5-Mini|2.9 %|97.1 %|95.6 %|74.5|
+|XAI-2-Vision|2.9 %|97.1|100.0 %|79.8|
+|Qwen2.5-Max|2.9 %|97.1 %|88.8 %|90.4|
+|Google Gemma-3-27B-Instruct|3.0 %|97.0 %|100.0 %|62.5|
 |Snowflake-Arctic-Instruct|3.0 %|97.0 %|100.0 %|68.7|
 |Qwen2.5-32B-Instruct|3.0 %|97.0 %|100.0 %|67.9|
 |Microsoft Phi-3-mini-128k-instruct|3.1 %|96.9 %|100.0 %|60.1|
 |Mistral Small3|3.1 %|96.9 %|100.0 %|74.9|
 |OpenAI-o1-preview|3.3 %|96.7 %|100.0 %|119.3|
 |Google Gemini-1.5-Flash-002|3.4 %|96.6 %|99.9 %|59.4|
+|Microsoft Phi-4-mini-instruct|3.4 %|96.6 %|100.0 %|69.7|
+|Google Gemma-3-4B-Instruct|3.7 %|96.3 %|100.0 %|63.7|
 |01-AI Yi-1.5-34B-Chat|3.7 %|96.3 %|100.0 %|83.7|
 |Llama-3.1-405B-Instruct|3.9 %|96.1 %|99.6 %|85.7|
 |DeepSeek-V3|3.9 %|96.1 %|100.0 %|88.2|
 |Microsoft Phi-3-mini-4k-instruct|4.0 %|96.0 %|100.0 %|86.8|
 |Llama-3.3-70B-Instruct|4.0 %|96.0 %|100.0 %|85.3|
+|InternLM3-8B-Instruct|4.0 %|96.0 %|100.0 %|97.5|
 |Microsoft Phi-3.5-mini-instruct|4.1 %|95.9 %|100.0 %|75.0|
 |Mistral-Large2|4.1 %|95.9 %|100.0 %|77.4|
 |Llama-3-70B-Chat-hf|4.1 %|95.9 %|99.2 %|68.5|
@@ -66,6 +84,10 @@ Last updated on January 31st, 2025
 |Qwen2.5-14B-Instruct|4.2 %|95.8 %|100.0 %|74.8|
 |Qwen2.5-72B-Instruct|4.3 %|95.7 %|100.0 %|80.0|
 |Llama-3.2-90B-Vision-Instruct|4.3 %|95.7 %|100.0 %|79.8|
+|Claude-3.7-Sonnet|4.4 %|95.6 %|100.0 %|97.8|
+|Claude-3.7-Sonnet-Think|4.5 %|95.5 %|99.8 %|99.9|
+|Cohere Command-A|4.5 %|95.5 %|100.0 %|77.3|
+|AI21 Jamba-1.6-Mini|4.6 %|95.4 %|100.0 %|82.3 |
 |XAI Grok|4.6 %|95.4 %|100.0 %|91.0|
 |Anthropic Claude-3-5-sonnet|4.6 %|95.4 %|100.0 %|95.9|
 |Qwen2-72B-Instruct|4.7 %|95.3 %|100.0 %|100.1|
@@ -75,8 +97,10 @@ Last updated on January 31st, 2025
 |01-AI Yi-1.5-9B-Chat|4.9 %|95.1 %|100.0 %|85.7|
 |Cohere Command-R|4.9 %|95.1 %|100.0 %|68.7|
 |Llama-3.1-70B-Instruct|5.0 %|95.0 %|100.0 %|79.6|
+|Google Gemma-3-1B-Instruct|5.3 %|94.7 %|99.9 %|57.9|
 |Llama-3.1-8B-Instruct|5.4 %|94.6 %|100.0 %|71.0|
 |Cohere Command-R-Plus|5.4 %|94.6 %|100.0 %|68.4|
+|Mistral-Small-3.1-24B-Instruct|5.6 %|94.4 %|100.0 %|73.1|
 |Llama-3.2-11B-Vision-Instruct|5.5 %|94.5 %|100.0 %|67.3|
 |Llama-2-70B-Chat-hf|5.9 %|94.1 %|99.9 %|84.9|
 |IBM Granite-3.0-8B-Instruct|6.5 %|93.5 %|100.0 %|74.2|
@@ -91,12 +115,14 @@ Last updated on January 31st, 2025
 |Google Gemini-Pro|7.7 %|92.3 %|98.4 %|89.5|
 |01-AI Yi-1.5-6B-Chat|7.9 %|92.1 %|100.0 %|98.9|
 |Llama-3.2-3B-Instruct|7.9 %|92.1 %|100.0 %|72.2|
+|DeepSeek-V3-0324|8.0 %|92.0 %|100.0 %|78.9|
 |Mistral-Ministral-3B|8.3 %|91.7 %|100.0 %|73.2|
 |databricks dbrx-instruct|8.3 %|91.7 %|100.0 %|85.9|
 |Qwen2-VL-2B-Instruct|8.3 %|91.7 %|100.0 %|81.8|
 |Cohere Aya Expanse 32B|8.5 %|91.5 %|99.9 %|81.9|
 |IBM Granite-3.1-8B-Instruct|8.6 %|91.4 %|100.0 %|107.4|
 |Mistral-Small2|8.6 %|91.4 %|100.0 %|74.2|
+|IBM Granite-3.2-8B-Instruct|8.7 %|91.3 %|100.0 %|120.1|
 |IBM Granite-3.0-2B-Instruct|8.8 %|91.2 %|100.0 %|81.6|
 |Mistral-7B-Instruct-v0.3|9.5 %|90.5 %|100.0 %|98.4|
 |Google Gemini-1.5-Pro|9.1 %|90.9 %|99.8 %|61.6|
@@ -117,6 +143,7 @@ Last updated on January 31st, 2025
 |Qwen2.5-1.5B-Instruct|15.8 %|84.2 %|100.0 %|70.7|
 |Qwen-QwQ-32B-Preview|16.1 %|83.9 %|100.0 %|201.5|
 |Anthropic Claude-3-sonnet|16.3 %|83.7 %|100.0 %|108.5|
+|IBM Granite-3.2-2B-Instruct|16.5 %|83.5 %|100.0 %|117.7|
 |Google Gemma-1.1-7B-it|17.0 %|83.0 %|100.0 %|64.3|
 |Anthropic Claude-2|17.4 %|82.6 %|99.3 %|87.5|
 |Google Flan-T5-large|18.3 %|81.7 %|99.3 %|20.9|
@@ -168,7 +195,9 @@ Below is a detailed overview of the models integrated and their specific endpoin
 - **o1-mini**: Accessed using the model name `o1-mini`.
 - **o1-preview**: Accessed using the model name `o1-preview`.
 - **o1**: Accessed using the model name `o1`.
-- **o3-mini-high-reasoning**: Accessed using the model name `o3-mini`, with parameter `reasoning_effort="low"`.
+- **o1-pro**: Accessed using the model name `o1-pro`.
+- **o3-mini-high-reasoning**: Accessed using the model name `o3-mini`, with parameter `reasoning_effort="high"`.
+- **GPT-4.5-preview**: Accessed using the model name `gpt-4.5-preview-2025-02-27`.
 
 ### Llama Models
 - **Llama 2 7B, 13B, and 70B**: These models of varying sizes are accessed through Anyscale hosted endpoints using model `meta-llama/Llama-2-xxb-chat-hf`, where `xxb` can be `7b`, `13b`, and `70b`, tailored to each model's capacity.
@@ -182,6 +211,7 @@ Below is a detailed overview of the models integrated and their specific endpoin
 - **Cohere Command R**: Employed using the model `command-r-08-2024` and the `/chat` endpoint.
 - **Cohere Command R Plus**: Employed using the model `command-r-plus-08-2024` and the `/chat` endpoint.
 - **Aya Expanse 8B, 32B**: Accessed using models `c4ai-aya-expanse-8b` and `c4ai-aya-expanse-32b`.
+- **Cohere Command A**: Employed using the model `command-a-03-2025` and the `/chat` endpoint.
 For more information about Cohere's models, refer to their [website](https://docs.cohere.com/docs/models).
 
 ### Anthropic Model
@@ -190,7 +220,7 @@ For more information about Cohere's models, refer to their [website](https://doc
 - **Claude 3 Sonnet**: Invoked the model using `claude-3-sonnet-20240229` for the API call.
 - **Claude 3.5 Sonnet**: Invoked the model using `claude-3-5-sonnet-20241022` for the API call.
 - **Claude 3.5 Haiku**: Invoked the model using `claude-3-5-haiku-20241022` for the API call.
-- **Claude 3.5 Haiku**: 
+- **Claude 3.7 Sonnet/Sonnet-Thinking**: Invoked the model using `claude-3-7-sonnet-20250219` for the API call. 
 Details on each model can be found on their [website](https://docs.anthropic.com/claude/docs/models-overview).
 
 ### Mistral AI Models
@@ -200,6 +230,7 @@ Details on each model can be found on their [website](https://docs.anthropic.com
 - **Mistral Large2**: Accessed via Mistral AI's API using the model `mistral-large-latest`.
 - **Mistral Small2**: Accessed via Mistral AI's API using the model `mistral-small-latest`.
 - **Mistral Small3**: The [Mistral Small3](https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501) model is accessed by being loaded from Hugging Face's checkpoint.
+- **Mistral-Small-3.1-24B-Instruct**: The [Mistral Small 3.1](mistralai/Mistral-Small-3.1-24B-Instruct-2503) model is accessed by being loaded from Hugging Face's checkpoint.
 - **Mistral-7B-Instruct-v0.3**: The [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) model is accessed by being loaded from Hugging Face's checkpoint.
 - **Mistral-Nemo-Instruct** The [Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) model is accessed via Hugging Face's checkpoint.
 - **Mistral Ministral 3B**: Accessed via Mistral AI's API using the model `ministral-3b-latest`.
@@ -213,7 +244,11 @@ Details on each model can be found on their [website](https://docs.anthropic.com
 - **Gemini 1.5 Pro 002**: Accessed using model `gemini-1.5-pro-002` on Vertex AI.
 - **Gemini 1.5 Flase 002**: Accessed using model `gemini-1.5-flash-002` on Vertex AI. 
 - **Gemini 2.0 Flash Exp**: Accessed using model `gemini-2.0-flash-exp` on Vertex AI. 
-- **Gemini 2.0 Flash Thinking Exp**: Accessed using model `gemini-2.0-flash-thinking-exp` on Vertex AI. 
+- **Gemini 2.0 Flash**: Accessed using model `gemini-2.0-flash-001` on Vertex AI. 
+- **Gemini 2.0 Flash Lite**: Accessed using model `gemini-2.0-flash-lite-preview-02-05` on Vertex AI. 
+- **Gemini 2.0 Flash Thinking Exp**: Accessed using model `gemini-2.0-flash-thinking-exp` on Vertex AI.
+- **Gemini 2.0 Pro Exp**: Accessed using model `gemini-2.0-pro-exp-02-05` on Vertex AI. 
+- **Gemini 2.5 Pro Exp**: Accessed using model `gemini-2.5-pro-exp-03-25` on Vertex AI. 
 
 ### Google Open-Source Models on Hugging Face
 - **Google flan-t5-large**: The [flan-t5-large](https://huggingface.co/google/flan-t5-large) model is accessed via Hugging Face's API.
@@ -222,11 +257,13 @@ Details on each model can be found on their [website](https://docs.anthropic.com
 - **Google gemma-1.1-2b-it** : The [gemma-1.1-2b-it](https://huggingface.co/google/gemma-1.1-2b-it) model is accessed via being loaded from Hugging Face's checkpoint.
 - **Google gemma-2-9b-it** : The [gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it) model is accessed via being loaded from Hugging Face's checkpoint.
 - **Google gemma-2-2b-it** : The [gemma-2-2b-it](https://huggingface.co/google/gemma-2-2b-it) model is accessed via being loaded from Hugging Face's checkpoint.
+- **Google gemma-3-1b/4b/12b/27b-it** : The [gemma-3-1b-it](https://huggingface.co/google/gemma-3-1b-it), [gemma-3-4b-it](https://huggingface.co/google/gemma-3-4b-it), [gemma-3-12b-it](https://huggingface.co/google/gemma-3-12b-it), [gemma-3-27b-it](https://huggingface.co/google/gemma-3-27b-it) models are accessed via being loaded from Hugging Face's checkpoint.
 
 For an in-depth understanding of each model's version and lifecycle, especially those offered by Google, please refer to [Model Versions and Lifecycles](https://cloud.google.com/vertex-ai/docs/generative-ai/learn/model-versioning) on Vertex AI.
 
-### Titan Models on Amazon Bedrock
+### Amazon Models
 - **Amazon Titan Express**: The [model](https://aws.amazon.com/bedrock/titan/) is accessed on Amazon Bedrock with model identifier of `amazon.titan-text-express-v1`.
+- **Amazon Nova V1 Pro, Lite, Micro**: The Amazon Nova V1 [Pro](https://openrouter.ai/amazon/nova-pro-v1), [Lite](https://openrouter.ai/amazon/nova-lite-v1), [Micro](https://openrouter.ai/amazon/nova-micro-v1) are accessed via OpenRouter API with parameter `"temperature": 0`.
 
 ### Microsoft Models
 - **Microsoft Phi-2**: The [phi-2](https://huggingface.co/microsoft/phi-2) model is accessed via Hugging Face's API.
@@ -236,7 +273,7 @@ For an in-depth understanding of each model's version and lifecycle, especially 
 - **Microsoft Phi-3-mini-128k**: The [phi-3-mini-128k](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) model is accessed via Hugging Face's checkpoint.
 - **Microsoft Phi-3.5-mini-instruct**: The [phi-3.5-mini-instruct](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) model is accessed via Hugging Face's checkpoint.
 - **Microsoft Phi-3.5-MoE-instruct**: The [phi-3.5-MoE-instruct](https://huggingface.co/microsoft/Phi-3.5-MoE-instruct) model is accessed via Hugging Face's checkpoint.
-- **Microsoft Phi-4**: The [phi-4](https://huggingface.co/microsoft/phi-4) model is accessed via Hugging Face's checkpoint.
+- **Microsoft Phi-4/Phi-4-Mini**: The [phi-4](https://huggingface.co/microsoft/phi-4) and [phi-4-mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) models are accessed via Hugging Face's checkpoint.
 
 ### TII Models on Hugging Face
 - **tiiuae/falcon-7b-instruct**: The [falcon-7b-instruct](https://huggingface.co/tiiuae/falcon-7b-instruct) model is accessed via Hugging Face's API.
@@ -264,25 +301,33 @@ For an in-depth understanding of each model's version and lifecycle, especially 
 - **Qwen/Qwen2-VL-Instruct 2B, 7B**: The models [Qwen/Qwen2-VL-2B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) and [Qwen/Qwen2-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) are accessed via Hugging Face's checkpoints.
 - **Qwen/Qwen2.5-Instruct 0.5B, 1.5B, 3B, 7B, 14B, 32B, 72B**: The models [Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct), [Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct), [Qwen2.5-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct), [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct), [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct), [Qwen2.5-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct), and [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) are accessed via Hugging Face's checkpoints.
 - **Qwen/QwQ-32B-Preview**: The model [Qwen/QwQ-32B-Preview](https://huggingface.co/Qwen/QwQ-32B-Preview) is accessed via Hugging Face's checkpoint.
+- **Qwen2.5-Max**: The model [Qwen2.5-max](https://openrouter.ai/qwen/qwen-max) are accessed via OpenRouter API with parameter `"temperature": 0`.
 
 ### AI21 Model
 - **AI21-Jamba-1.5-Mini**: The [Jamba-1.5-Mini](https://huggingface.co/ai21labs/AI21-Jamba-1.5-Mini) model is accessed via Hugging Face's checkpoint.
+- **AI21 Jamba-1.6-Large / Mini**: The [Jamba-1.6-Large](https://openrouter.ai/ai21/jamba-1.6-large) and [Jamba-1.6-Mini](https://openrouter.ai/ai21/jamba-1.6-mini) are accessed via OpenRouter API with endpoint `ai21/jamba-1.6-large` and `ai21/jamba-1.6-mini`.
 
 ### DeepSeek Model
 - **DeepSeek V2.5**: Accessed via DeepSeek's API using `deepseek-chat` model and the `chat` endpoint.
 - **DeepSeek V3**: Accessed via DeepSeek's API using `deepseek-chat` model and the `chat` endpoint.
+- **DeepSeek V3-0324**: Accessed via DeepSeek's API using `deepseek-chat` model and the `chat` endpoint.
 - **DeepSeek R1**: Accessed via DeepSeek's API using `deepseek-reasoner` model and the `reasoner` endpoint.
 
 ### IBM Models
 - **Granite-3.0-Instruct 2B, 8B**: The models [ibm-granite/granite-3.0-8b-instruct](https://huggingface.co/ibm-granite/granite-3.0-8b-instruct) and [ibm-granite/granite-3.0-2b-instruct](https://huggingface.co/ibm-granite/granite-3.0-2b-instruct) are accessed via Hugging Face's checkpoints.
 - **Granite-3.1-Instruct 2B, 8B**: The models [ibm-granite/granite-3.1-8b-instruct](https://huggingface.co/ibm-granite/granite-3.1-8b-instruct) and [ibm-granite/granite-3.1-2b-instruct](https://huggingface.co/ibm-granite/granite-3.1-2b-instruct) are accessed via Hugging Face's checkpoints.
+- **Granite-3.2-Instruct 2B, 8B**: The models [ibm-granite/granite-3.2-8b-instruct](https://huggingface.co/ibm-granite/granite-3.2-8b-instruct) and [ibm-granite/granite-3.2-2b-instruct](https://huggingface.co/ibm-granite/granite-3.2-2b-instruct) are accessed via Hugging Face's checkpoints. Summaries are generated with `thinking=True`.
 
 ### XAI Model
 - **Grok**: Accessed via xAI's API using the model `grok-beta` and the `chat/completions` endpoint.
+- **Grok-2**: The [model](https://openrouter.ai/x-ai/grok-2-1212) are accessed via OpenRouter API with endpoint `x-ai/grok-2-1212`.
+- **Grok-2-Vision**: The [model](https://openrouter.ai/x-ai/grok-2-vision-1212) are accessed via OpenRouter API with endpoint `x-ai/grok-2-vision-1212`.
 
 ### AllenAI Models
 - **OLMo-2 7B, 13B**: The models [allenai/OLMo-2-1124-7B-Instruct](https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct) and [allenai/OLMo-2-1124-13B-Instruct](https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct) are accessed via Hugging Face's checkpoints.
 
+### InternLM Models
+- **InternLM3-8B-Instruct**: The model [internlm/internlm3-8b-instruct](https://huggingface.co/internlm/internlm3-8b-instruct) are accessed via HuggingFace's checkpoint.
 
 
 ## Frequently Asked Questions
